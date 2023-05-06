@@ -1,6 +1,6 @@
 {
   "name": "type-schema-compiler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An intuitive type schema specification language",
   "bin": {
     "type-schema-compiler": "bin/type-schema-compiler"
