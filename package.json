@@ -1,0 +1,53 @@
+{
+  "name": "type-schema-compiler",
+  "version": "0.0.1",
+  "description": "An intuitive type schema specification language",
+  "bin": {
+    "type-schema-compiler": "bin/type-schema-compiler"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "sh ./build.sh"
+  },
+  "keywords": [
+    "type",
+    "schema",
+    "compiler",
+    "generator",
+    "language",
+    "parsing",
+    "haskell",
+    "npx",
+    "executable",
+    "command",
+    "cli",
+    "safety",
+    "typecheck",
+    "check",
+    "type-check",
+    "programming-language",
+    "new",
+    "json-validator",
+    "validator",
+    "json",
+    "ajv",
+    "json-schema",
+    "jsonschema",
+    "json-schema-validator",
+    "json-schema-validation",
+    "validation",
+    "validator",
+    "error",
+    "api",
+    "api-validation",
+    "api-type-check",
+    "api-check",
+    "api-error",
+    "error-api",
+    "type-safety"
+  ],
+  "author": "HamzaM3",
+  "license": "ISC"
+}
