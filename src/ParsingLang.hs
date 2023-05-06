@@ -117,7 +117,7 @@ typeToAJVSchema = template . mapSnd typeToAJVSchema'
 
 typeToAJVSchema' :: Type -> String
 typeToAJVSchema' NumberType = "{type: \"number\"}"
-typeToAJVSchema' BoolType = "{type: \"bool\"}"
+typeToAJVSchema' BoolType = "{type: \"boolean\"}"
 typeToAJVSchema' StringType = "{type: \"string\"}"
 typeToAJVSchema' (ObjectType fields) = "{type: \"object\",properties:{" ++ properties ++ "}}"
   where
