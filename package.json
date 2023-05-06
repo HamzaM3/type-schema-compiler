@@ -9,7 +9,8 @@
     "example": "examples"
   },
   "scripts": {
-    "build": "sh ./build.sh"
+    "build": "sh ./build.sh",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "type",
@@ -49,5 +50,13 @@
     "type-safety"
   ],
   "author": "HamzaM3",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamzaM3/type-schema-compiler.git"
+  },
+  "homepage": "https://github.com/HamzaM3/type-schema-compiler#readme",
+  "bugs": {
+    "url": "https://github.com/HamzaM3/type-schema-compiler/issues"
+  }
 }
